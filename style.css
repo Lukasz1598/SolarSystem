@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #111;
+    color: white;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.container{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+   
+}
+
+.background{
+    background-image: url('img/sky.png');
+    position: absolute;
+    /* width: 100vw; */
+    height: 1000vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section{
+    display: flex;
+    position: absolute;
+}
+
+.section--mercury {  
+    top: 500px;
+    left: 40%;
+}
+
+.section--wenus {
+    top: 1000px;
+    left: 40%;
+}
+
+.section--earth {
+    top: 1500px;
+    left: 40%;
+}
+
+.section--mars {
+    top: 2000px;
+    left: 40%;
+}
+
+.section--jupiter {
+    top: 2500px;
+    left: 40%;
+}
+
+.section--saturn {
+    top: 3000px;
+    left: 30%;
+}
+
+.section--uranus {
+    top: 3500px;
+    left: 40%;
+}
+
+.section--neptune {
+    top: 4000px;
+    left: 40%;
+}
+
+.section__planet--mercury {
+    background-image: url('img/mercury.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.section__planet--wenus {
+    background-image: url('img/wenus.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.section__planet--earth {
+    background-image: url('img/earth.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.section__planet--mars {
+    background-image: url('img/mars.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.section__planet--jupiter {
+    background-image: url('img/jupiter.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.section__planet--saturn {
+    background-image: url('img/saturn.png');
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+}
+
+.section__planet--uranus {
+    background-image: url('img/uranus.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.section__planet--neptune {
+    background-image: url('img/neptune.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
